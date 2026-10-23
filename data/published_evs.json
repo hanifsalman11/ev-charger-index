@@ -28,5 +28,35 @@
     "max_kw": 11.5,
     "breaker_amps": 60,
     "date": "2026-10-23"
+  },
+  {
+    "ev_name": "Hyundai Ioniq 5 AWD Long Range",
+    "slug": "hyundai-ioniq-5-awd-long-range-home-charger-wire-size-calculator",
+    "title": "Hyundai Ioniq 5 AWD Long Range Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.4 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Hyundai Ioniq 5 AWD Long Range.",
+    "battery_kwh": 77.4,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-23"
+  },
+  {
+    "ev_name": "Chevrolet Equinox EV 2LT",
+    "slug": "chevrolet-equinox-ev-2lt-home-charger-wire-size-calculator",
+    "title": "Chevrolet Equinox EV 2LT Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.8 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Chevrolet Equinox EV 2LT.",
+    "battery_kwh": 85.0,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-23"
+  },
+  {
+    "ev_name": "Kia EV9 Land AWD Three-Row",
+    "slug": "kia-ev9-land-awd-three-row-home-charger-wire-size-calculator",
+    "title": "Kia EV9 Land AWD Three-Row Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (6.0 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Kia EV9 Land AWD Three-Row.",
+    "battery_kwh": 99.8,
+    "max_kw": 10.9,
+    "breaker_amps": 60,
+    "date": "2026-10-23"
   }
 ]

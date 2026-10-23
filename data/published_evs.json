@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "ev_name": "Tesla Model Y Long Range AWD",
+    "slug": "tesla-model-y-long-range-awd-home-charger-wire-size-calculator",
+    "title": "Tesla Model Y Long Range AWD Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.4 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Tesla Model Y Long Range AWD.",
+    "battery_kwh": 78.1,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-23"
+  },
+  {
+    "ev_name": "Ford F-150 Lightning Extended Range",
+    "slug": "ford-f-150-lightning-extended-range-home-charger-wire-size-calculator",
+    "title": "Ford F-150 Lightning Extended Range Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.4 hrs for 20%–80%), NEC wire gauge (3 AWG Copper THHN in Conduit (or 2 AWG Copper)), and circuit breaker size (100A) for the Ford F-150 Lightning Extended Range.",
+    "battery_kwh": 131.0,
+    "max_kw": 19.2,
+    "breaker_amps": 100,
+    "date": "2026-10-23"
+  },
+  {
+    "ev_name": "Rivian R1S Dual-Motor Max Pack",
+    "slug": "rivian-r1s-dual-motor-max-pack-home-charger-wire-size-calculator",
+    "title": "Rivian R1S Dual-Motor Max Pack Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (8.0 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Rivian R1S Dual-Motor Max Pack.",
+    "battery_kwh": 141.0,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-23"
+  }
+]

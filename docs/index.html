@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVSECalcIndex — Level 2 EV Home Charger, NEC Wire Gauge & Charge Time Calculator (2026)</title>
+  <meta name="description" content="Calculate exact Level 2 charging times, NEC Article 625 copper wire gauge (AWG), and 240V circuit breaker sizes for Tesla, Ford, Rivian, Hyundai, Kia, and Chevy EVs.">
+  <link rel="canonical" href="https://hanifsalman11.github.io/ev-charger-index/">
+  <link rel="alternate" type="application/rss+xml" title="EVSECalcIndex RSS Feed" href="https://hanifsalman11.github.io/ev-charger-index/rss.xml">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col">
+  <header class="border-b border-slate-800 bg-slate-900/80 sticky top-0 z-30 backdrop-blur">
+    <div class="max-w-5xl mx-auto px-4 py-3.5 flex items-center justify-between">
+      <div class="text-lg font-black text-white flex items-center gap-2">
+        <span class="bg-teal-500 text-slate-950 px-2 py-0.5 rounded font-black">EVSE</span>CalcIndex
+      </div>
+      <a href="https://www.amazon.com/s?k=Level%2B2%2BEV%2BCharger%2B48%2BAmp%2B40%2BAmp%2BNEMA%2B14-50%2BHardwired%2BUL%2BListed&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="text-xs sm:text-sm bg-teal-500 hover:bg-teal-400 text-slate-950 font-extrabold px-3.5 py-2 rounded-lg transition">
+        Shop UL-Listed Level 2 EV Chargers on Amazon →
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-12 flex-1 w-full">
+    <div class="text-center max-w-2xl mx-auto mb-10">
+      <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight">EV Home Charger, Breaker & Wire Sizing Database</h1>
+      <p class="text-slate-400 mt-3 text-base sm:text-lg">Select your electric vehicle or plug-in hybrid below to calculate exact Level 2 charging time (20%–80%), NEC copper wire gauge (AWG), and 240V breaker requirements.</p>
+      <div class="mt-6">
+        <input id="filterInput" type="text" placeholder="Search EV model (e.g. Tesla Model Y, F-150 Lightning, Rivian R1S, Ioniq 5, Equinox EV...)" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-teal-500">
+      </div>
+    </div>
+
+    <div id="evGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <a href="rivian-r1s-dual-motor-max-pack-home-charger-wire-size-calculator.html" class="block bg-slate-900 border border-slate-800 hover:border-teal-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-teal-500 text-slate-950 px-2.5 py-0.5 rounded">141.0 kWh | 11.5 kW AC</span>
+            <span class="text-xs text-slate-400">60A Breaker</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-teal-400 transition">Rivian R1S Dual-Motor Max Pack Home Charger & Wire Calculator</h2>
+          <p class="text-xs text-slate-400 mt-2 line-clamp-2">Calculate exact Level 2 charging time (8.0 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Rivian R1S Dual-Motor Max Pack.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-teal-400">Calculate Charge Time & Wire Gauge →</span>
+        </a>
+        <a href="ford-f-150-lightning-extended-range-home-charger-wire-size-calculator.html" class="block bg-slate-900 border border-slate-800 hover:border-teal-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-teal-500 text-slate-950 px-2.5 py-0.5 rounded">131.0 kWh | 19.2 kW AC</span>
+            <span class="text-xs text-slate-400">100A Breaker</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-teal-400 transition">Ford F-150 Lightning Extended Range Home Charger & Wire Calculator</h2>
+          <p class="text-xs text-slate-400 mt-2 line-clamp-2">Calculate exact Level 2 charging time (4.4 hrs for 20%–80%), NEC wire gauge (3 AWG Copper THHN in Conduit (or 2 AWG Copper)), and circuit breaker size (100A) for the Ford F-150 Lightning Extended Range.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-teal-400">Calculate Charge Time & Wire Gauge →</span>
+        </a>
+        <a href="tesla-model-y-long-range-awd-home-charger-wire-size-calculator.html" class="block bg-slate-900 border border-slate-800 hover:border-teal-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-teal-500 text-slate-950 px-2.5 py-0.5 rounded">78.1 kWh | 11.5 kW AC</span>
+            <span class="text-xs text-slate-400">60A Breaker</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-teal-400 transition">Tesla Model Y Long Range AWD Home Charger & Wire Calculator</h2>
+          <p class="text-xs text-slate-400 mt-2 line-clamp-2">Calculate exact Level 2 charging time (4.4 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Tesla Model Y Long Range AWD.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-teal-400">Calculate Charge Time & Wire Gauge →</span>
+        </a></div>
+  </main>
+
+  <footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500">
+    <p>© 2026 EVSECalcIndex. As an Amazon Associate, we earn from qualifying purchases.</p>
+  </footer>
+
+  <script>
+    const filterInput = document.getElementById('filterInput');
+    const cards = Array.from(document.getElementById('evGrid').children);
+    filterInput.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase();
+      cards.forEach(c => {
+        c.style.display = c.textContent.toLowerCase().includes(q) ? 'block' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>

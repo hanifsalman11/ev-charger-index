@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EVSECalcIndex EV Home Charger & NEC Wire Database</title>
+    <link>https://hanifsalman11.github.io/ev-charger-index/</link>
+    <description>Interactive Level 2 EV Charger Amperage, Wire Gauge & Charging Time Calculators</description>
+    <atom:link href="https://hanifsalman11.github.io/ev-charger-index/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
+    <item>
+      <title>Rivian R1S Dual-Motor Max Pack Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/rivian-r1s-dual-motor-max-pack-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/rivian-r1s-dual-motor-max-pack-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (8.0 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Rivian R1S Dual-Motor Max Pack.</description>
+    </item>
+    <item>
+      <title>Ford F-150 Lightning Extended Range Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/ford-f-150-lightning-extended-range-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/ford-f-150-lightning-extended-range-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (4.4 hrs for 20%–80%), NEC wire gauge (3 AWG Copper THHN in Conduit (or 2 AWG Copper)), and circuit breaker size (100A) for the Ford F-150 Lightning Extended Range.</description>
+    </item>
+    <item>
+      <title>Tesla Model Y Long Range AWD Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/tesla-model-y-long-range-awd-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/tesla-model-y-long-range-awd-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (4.4 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Tesla Model Y Long Range AWD.</description>
+    </item>
+  </channel>
+</rss>

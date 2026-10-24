@@ -148,5 +148,35 @@
     "max_kw": 19.2,
     "breaker_amps": 100,
     "date": "2026-10-24"
+  },
+  {
+    "ev_name": "Hyundai Ioniq 6 SE Long Range",
+    "slug": "hyundai-ioniq-6-se-long-range-home-charger-wire-size-calculator",
+    "title": "Hyundai Ioniq 6 SE Long Range Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.4 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Hyundai Ioniq 6 SE Long Range.",
+    "battery_kwh": 77.4,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-24"
+  },
+  {
+    "ev_name": "Kia EV6 Wind AWD",
+    "slug": "kia-ev6-wind-awd-home-charger-wire-size-calculator",
+    "title": "Kia EV6 Wind AWD Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.6 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Kia EV6 Wind AWD.",
+    "battery_kwh": 77.4,
+    "max_kw": 10.9,
+    "breaker_amps": 60,
+    "date": "2026-10-24"
+  },
+  {
+    "ev_name": "Volkswagen ID.4 Pro S",
+    "slug": "volkswagen-id4-pro-s-home-charger-wire-size-calculator",
+    "title": "Volkswagen ID.4 Pro S Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.6 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Volkswagen ID.4 Pro S.",
+    "battery_kwh": 77.0,
+    "max_kw": 11.0,
+    "breaker_amps": 60,
+    "date": "2026-10-24"
   }
 ]

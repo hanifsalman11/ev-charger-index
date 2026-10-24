@@ -118,5 +118,35 @@
     "max_kw": 11.0,
     "breaker_amps": 60,
     "date": "2026-10-24"
+  },
+  {
+    "ev_name": "Porsche Macan Electric 4",
+    "slug": "porsche-macan-electric-4-home-charger-wire-size-calculator",
+    "title": "Porsche Macan Electric 4 Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (5.6 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Porsche Macan Electric 4.",
+    "battery_kwh": 95.0,
+    "max_kw": 11.0,
+    "breaker_amps": 60,
+    "date": "2026-10-24"
+  },
+  {
+    "ev_name": "Rivian R1T Dual-Motor Large Pack",
+    "slug": "rivian-r1t-dual-motor-large-pack-home-charger-wire-size-calculator",
+    "title": "Rivian R1T Dual-Motor Large Pack Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (6.2 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Rivian R1T Dual-Motor Large Pack.",
+    "battery_kwh": 109.0,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-24"
+  },
+  {
+    "ev_name": "Chevrolet Silverado EV RST Max Range",
+    "slug": "chevrolet-silverado-ev-rst-max-range-home-charger-wire-size-calculator",
+    "title": "Chevrolet Silverado EV RST Max Range Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (7.0 hrs for 20%–80%), NEC wire gauge (3 AWG Copper THHN in Conduit (or 2 AWG Copper)), and circuit breaker size (100A) for the Chevrolet Silverado EV RST Max Range.",
+    "battery_kwh": 205.0,
+    "max_kw": 19.2,
+    "breaker_amps": 100,
+    "date": "2026-10-24"
   }
 ]

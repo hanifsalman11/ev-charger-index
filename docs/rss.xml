@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ev-charger-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Chevrolet Silverado EV RST Max Range Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/chevrolet-silverado-ev-rst-max-range-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/chevrolet-silverado-ev-rst-max-range-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (7.0 hrs for 20%–80%), NEC wire gauge (3 AWG Copper THHN in Conduit (or 2 AWG Copper)), and circuit breaker size (100A) for the Chevrolet Silverado EV RST Max Range.</description>
+    </item>
+    <item>
+      <title>Rivian R1T Dual-Motor Large Pack Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/rivian-r1t-dual-motor-large-pack-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/rivian-r1t-dual-motor-large-pack-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (6.2 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Rivian R1T Dual-Motor Large Pack.</description>
+    </item>
+    <item>
+      <title>Porsche Macan Electric 4 Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/porsche-macan-electric-4-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/porsche-macan-electric-4-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (5.6 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Porsche Macan Electric 4.</description>
+    </item>
+    <item>
       <title>BMW i4 eDrive40 Gran Coupe Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
       <link>https://hanifsalman11.github.io/ev-charger-index/bmw-i4-edrive40-gran-coupe-home-charger-wire-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ev-charger-index/bmw-i4-edrive40-gran-coupe-home-charger-wire-size-calculator.html</guid>

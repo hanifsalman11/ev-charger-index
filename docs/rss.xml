@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ev-charger-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>BMW i4 eDrive40 Gran Coupe Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/bmw-i4-edrive40-gran-coupe-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/bmw-i4-edrive40-gran-coupe-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (4.8 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the BMW i4 eDrive40 Gran Coupe.</description>
+    </item>
+    <item>
+      <title>Honda Prologue Touring AWD Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/honda-prologue-touring-awd-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/honda-prologue-touring-awd-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (4.8 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Honda Prologue Touring AWD.</description>
+    </item>
+    <item>
+      <title>Cadillac Lyriq Luxury AWD Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/cadillac-lyriq-luxury-awd-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/cadillac-lyriq-luxury-awd-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (3.5 hrs for 20%–80%), NEC wire gauge (3 AWG Copper THHN in Conduit (or 2 AWG Copper)), and circuit breaker size (100A) for the Cadillac Lyriq Luxury AWD.</description>
+    </item>
+    <item>
       <title>Ford Mustang Mach-E Premium ER Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
       <link>https://hanifsalman11.github.io/ev-charger-index/ford-mustang-mach-e-premium-er-home-charger-wire-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ev-charger-index/ford-mustang-mach-e-premium-er-home-charger-wire-size-calculator.html</guid>

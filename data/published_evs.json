@@ -58,5 +58,35 @@
     "max_kw": 10.9,
     "breaker_amps": 60,
     "date": "2026-10-23"
+  },
+  {
+    "ev_name": "Tesla Model 3 Highland Long Range",
+    "slug": "tesla-model-3-highland-long-range-home-charger-wire-size-calculator",
+    "title": "Tesla Model 3 Highland Long Range Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.4 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Tesla Model 3 Highland Long Range.",
+    "battery_kwh": 78.1,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-24"
+  },
+  {
+    "ev_name": "Tesla Cybertruck All-Wheel Drive",
+    "slug": "tesla-cybertruck-all-wheel-drive-home-charger-wire-size-calculator",
+    "title": "Tesla Cybertruck All-Wheel Drive Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (7.0 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Tesla Cybertruck All-Wheel Drive.",
+    "battery_kwh": 123.0,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-24"
+  },
+  {
+    "ev_name": "Ford Mustang Mach-E Premium ER",
+    "slug": "ford-mustang-mach-e-premium-er-home-charger-wire-size-calculator",
+    "title": "Ford Mustang Mach-E Premium ER Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (5.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Ford Mustang Mach-E Premium ER.",
+    "battery_kwh": 91.0,
+    "max_kw": 10.5,
+    "breaker_amps": 60,
+    "date": "2026-10-24"
   }
 ]

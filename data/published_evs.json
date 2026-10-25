@@ -208,5 +208,35 @@
     "max_kw": 11.0,
     "breaker_amps": 60,
     "date": "2026-10-25"
+  },
+  {
+    "ev_name": "Lucid Air Pure Rear-Wheel Drive",
+    "slug": "lucid-air-pure-rear-wheel-drive-home-charger-wire-size-calculator",
+    "title": "Lucid Air Pure Rear-Wheel Drive Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (2.9 hrs for 20%–80%), NEC wire gauge (3 AWG Copper THHN in Conduit (or 2 AWG Copper)), and circuit breaker size (100A) for the Lucid Air Pure Rear-Wheel Drive.",
+    "battery_kwh": 84.0,
+    "max_kw": 19.2,
+    "breaker_amps": 100,
+    "date": "2026-10-25"
+  },
+  {
+    "ev_name": "Audi Q6 e-tron Quattro",
+    "slug": "audi-q6-e-tron-quattro-home-charger-wire-size-calculator",
+    "title": "Audi Q6 e-tron Quattro Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (5.6 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Audi Q6 e-tron Quattro.",
+    "battery_kwh": 94.9,
+    "max_kw": 11.0,
+    "breaker_amps": 60,
+    "date": "2026-10-25"
+  },
+  {
+    "ev_name": "Jeep Wagoneer S Launch Edition",
+    "slug": "jeep-wagoneer-s-launch-edition-home-charger-wire-size-calculator",
+    "title": "Jeep Wagoneer S Launch Edition Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (5.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Jeep Wagoneer S Launch Edition.",
+    "battery_kwh": 100.5,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-25"
   }
 ]

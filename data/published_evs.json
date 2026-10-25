@@ -178,5 +178,35 @@
     "max_kw": 11.0,
     "breaker_amps": 60,
     "date": "2026-10-24"
+  },
+  {
+    "ev_name": "Volvo EX30 Twin Motor Performance",
+    "slug": "volvo-ex30-twin-motor-performance-home-charger-wire-size-calculator",
+    "title": "Volvo EX30 Twin Motor Performance Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (3.8 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Volvo EX30 Twin Motor Performance.",
+    "battery_kwh": 64.0,
+    "max_kw": 11.0,
+    "breaker_amps": 60,
+    "date": "2026-10-25"
+  },
+  {
+    "ev_name": "Volvo EX90 Twin Motor AWD",
+    "slug": "volvo-ex90-twin-motor-awd-home-charger-wire-size-calculator",
+    "title": "Volvo EX90 Twin Motor AWD Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (6.3 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Volvo EX90 Twin Motor AWD.",
+    "battery_kwh": 107.0,
+    "max_kw": 11.0,
+    "breaker_amps": 60,
+    "date": "2026-10-25"
+  },
+  {
+    "ev_name": "Polestar 3 Long Range Dual Motor",
+    "slug": "polestar-3-long-range-dual-motor-home-charger-wire-size-calculator",
+    "title": "Polestar 3 Long Range Dual Motor Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (6.3 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Polestar 3 Long Range Dual Motor.",
+    "battery_kwh": 107.0,
+    "max_kw": 11.0,
+    "breaker_amps": 60,
+    "date": "2026-10-25"
   }
 ]

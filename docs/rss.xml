@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ev-charger-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Polestar 3 Long Range Dual Motor Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/polestar-3-long-range-dual-motor-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/polestar-3-long-range-dual-motor-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (6.3 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Polestar 3 Long Range Dual Motor.</description>
+    </item>
+    <item>
+      <title>Volvo EX90 Twin Motor AWD Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/volvo-ex90-twin-motor-awd-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/volvo-ex90-twin-motor-awd-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (6.3 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Volvo EX90 Twin Motor AWD.</description>
+    </item>
+    <item>
+      <title>Volvo EX30 Twin Motor Performance Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/volvo-ex30-twin-motor-performance-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/volvo-ex30-twin-motor-performance-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (3.8 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Volvo EX30 Twin Motor Performance.</description>
+    </item>
+    <item>
       <title>Volkswagen ID.4 Pro S Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
       <link>https://hanifsalman11.github.io/ev-charger-index/volkswagen-id4-pro-s-home-charger-wire-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ev-charger-index/volkswagen-id4-pro-s-home-charger-wire-size-calculator.html</guid>

@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ev-charger-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>GMC Hummer EV Pickup 3X Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/gmc-hummer-ev-pickup-3x-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/gmc-hummer-ev-pickup-3x-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (7.2 hrs for 20%–80%), NEC wire gauge (3 AWG Copper THHN in Conduit (or 2 AWG Copper)), and circuit breaker size (100A) for the GMC Hummer EV Pickup 3X.</description>
+    </item>
+    <item>
+      <title>Subaru Solterra Limited AWD Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/subaru-solterra-limited-awd-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/subaru-solterra-limited-awd-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (7.2 hrs for 20%–80%), NEC wire gauge (8 AWG Copper THHN / NM-B Wire), and circuit breaker size (40A) for the Subaru Solterra Limited AWD.</description>
+    </item>
+    <item>
+      <title>Nissan Ariya Evolve+ e-4ORCE Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/nissan-ariya-evolve-e-4orce-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/nissan-ariya-evolve-e-4orce-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (7.9 hrs for 20%–80%), NEC wire gauge (8 AWG Copper THHN / NM-B Wire), and circuit breaker size (40A) for the Nissan Ariya Evolve+ e-4ORCE.</description>
+    </item>
+    <item>
       <title>Chevrolet Blazer EV RS AWD Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
       <link>https://hanifsalman11.github.io/ev-charger-index/chevrolet-blazer-ev-rs-awd-home-charger-wire-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ev-charger-index/chevrolet-blazer-ev-rs-awd-home-charger-wire-size-calculator.html</guid>

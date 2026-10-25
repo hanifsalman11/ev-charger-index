@@ -268,5 +268,35 @@
     "max_kw": 11.5,
     "breaker_amps": 60,
     "date": "2026-10-25"
+  },
+  {
+    "ev_name": "Nissan Ariya Evolve+ e-4ORCE",
+    "slug": "nissan-ariya-evolve-e-4orce-home-charger-wire-size-calculator",
+    "title": "Nissan Ariya Evolve+ e-4ORCE Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (7.9 hrs for 20%–80%), NEC wire gauge (8 AWG Copper THHN / NM-B Wire), and circuit breaker size (40A) for the Nissan Ariya Evolve+ e-4ORCE.",
+    "battery_kwh": 87.0,
+    "max_kw": 7.2,
+    "breaker_amps": 40,
+    "date": "2026-10-25"
+  },
+  {
+    "ev_name": "Subaru Solterra Limited AWD",
+    "slug": "subaru-solterra-limited-awd-home-charger-wire-size-calculator",
+    "title": "Subaru Solterra Limited AWD Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (7.2 hrs for 20%–80%), NEC wire gauge (8 AWG Copper THHN / NM-B Wire), and circuit breaker size (40A) for the Subaru Solterra Limited AWD.",
+    "battery_kwh": 72.8,
+    "max_kw": 6.6,
+    "breaker_amps": 40,
+    "date": "2026-10-25"
+  },
+  {
+    "ev_name": "GMC Hummer EV Pickup 3X",
+    "slug": "gmc-hummer-ev-pickup-3x-home-charger-wire-size-calculator",
+    "title": "GMC Hummer EV Pickup 3X Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (7.2 hrs for 20%–80%), NEC wire gauge (3 AWG Copper THHN in Conduit (or 2 AWG Copper)), and circuit breaker size (100A) for the GMC Hummer EV Pickup 3X.",
+    "battery_kwh": 212.7,
+    "max_kw": 19.2,
+    "breaker_amps": 100,
+    "date": "2026-10-25"
   }
 ]

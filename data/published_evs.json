@@ -238,5 +238,35 @@
     "max_kw": 11.5,
     "breaker_amps": 60,
     "date": "2026-10-25"
+  },
+  {
+    "ev_name": "Toyota RAV4 Prime Plug-In Hybrid",
+    "slug": "toyota-rav4-prime-plug-in-hybrid-home-charger-wire-size-calculator",
+    "title": "Toyota RAV4 Prime Plug-In Hybrid Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (1.8 hrs for 20%–80%), NEC wire gauge (8 AWG Copper THHN / NM-B Wire), and circuit breaker size (40A) for the Toyota RAV4 Prime Plug-In Hybrid.",
+    "battery_kwh": 18.1,
+    "max_kw": 6.6,
+    "breaker_amps": 40,
+    "date": "2026-10-25"
+  },
+  {
+    "ev_name": "Jeep Wrangler 4xe Plug-In Hybrid",
+    "slug": "jeep-wrangler-4xe-plug-in-hybrid-home-charger-wire-size-calculator",
+    "title": "Jeep Wrangler 4xe Plug-In Hybrid Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (1.6 hrs for 20%–80%), NEC wire gauge (8 AWG Copper THHN / NM-B Wire), and circuit breaker size (40A) for the Jeep Wrangler 4xe Plug-In Hybrid.",
+    "battery_kwh": 17.3,
+    "max_kw": 7.2,
+    "breaker_amps": 40,
+    "date": "2026-10-25"
+  },
+  {
+    "ev_name": "Chevrolet Blazer EV RS AWD",
+    "slug": "chevrolet-blazer-ev-rs-awd-home-charger-wire-size-calculator",
+    "title": "Chevrolet Blazer EV RS AWD Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.8 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Chevrolet Blazer EV RS AWD.",
+    "battery_kwh": 85.0,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-25"
   }
 ]

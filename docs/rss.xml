@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ev-charger-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Chevy Bolt Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/chevy-bolt-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/chevy-bolt-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Chevy Bolt.</description>
+    </item>
+    <item>
+      <title>Sale Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/sale-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/sale-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Sale.</description>
+    </item>
+    <item>
+      <title>Jeep Wrangler 4Xe Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/jeep-wrangler-4xe-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/jeep-wrangler-4xe-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Jeep Wrangler 4Xe.</description>
+    </item>
+    <item>
       <title>Jeep 4Xe Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
       <link>https://hanifsalman11.github.io/ev-charger-index/jeep-4xe-home-charger-wire-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ev-charger-index/jeep-4xe-home-charger-wire-size-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/ev-charger-index/tesla-model-3-highland-long-range-home-charger-wire-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ev-charger-index/tesla-model-3-highland-long-range-home-charger-wire-size-calculator.html</guid>
       <description>Calculate exact Level 2 charging time (4.4 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Tesla Model 3 Highland Long Range.</description>
-    </item>
-    <item>
-      <title>Kia EV9 Land AWD Three-Row Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
-      <link>https://hanifsalman11.github.io/ev-charger-index/kia-ev9-land-awd-three-row-home-charger-wire-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ev-charger-index/kia-ev9-land-awd-three-row-home-charger-wire-size-calculator.html</guid>
-      <description>Calculate exact Level 2 charging time (6.0 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Kia EV9 Land AWD Three-Row.</description>
-    </item>
-    <item>
-      <title>Chevrolet Equinox EV 2LT Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
-      <link>https://hanifsalman11.github.io/ev-charger-index/chevrolet-equinox-ev-2lt-home-charger-wire-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ev-charger-index/chevrolet-equinox-ev-2lt-home-charger-wire-size-calculator.html</guid>
-      <description>Calculate exact Level 2 charging time (4.8 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Chevrolet Equinox EV 2LT.</description>
-    </item>
-    <item>
-      <title>Hyundai Ioniq 5 AWD Long Range Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
-      <link>https://hanifsalman11.github.io/ev-charger-index/hyundai-ioniq-5-awd-long-range-home-charger-wire-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ev-charger-index/hyundai-ioniq-5-awd-long-range-home-charger-wire-size-calculator.html</guid>
-      <description>Calculate exact Level 2 charging time (4.4 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Hyundai Ioniq 5 AWD Long Range.</description>
     </item>
   </channel>
 </rss>

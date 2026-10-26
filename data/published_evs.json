@@ -328,5 +328,35 @@
     "max_kw": 11.5,
     "breaker_amps": 60,
     "date": "2026-10-26"
+  },
+  {
+    "ev_name": "Jeep Wrangler 4Xe",
+    "slug": "jeep-wrangler-4xe-home-charger-wire-size-calculator",
+    "title": "Jeep Wrangler 4Xe Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Jeep Wrangler 4Xe.",
+    "battery_kwh": 82.0,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-26"
+  },
+  {
+    "ev_name": "Sale",
+    "slug": "sale-home-charger-wire-size-calculator",
+    "title": "Sale Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Sale.",
+    "battery_kwh": 82.0,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-26"
+  },
+  {
+    "ev_name": "Chevy Bolt",
+    "slug": "chevy-bolt-home-charger-wire-size-calculator",
+    "title": "Chevy Bolt Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Chevy Bolt.",
+    "battery_kwh": 82.0,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-26"
   }
 ]

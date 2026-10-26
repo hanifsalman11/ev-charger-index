@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ev-charger-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Nissan Leaf Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/nissan-leaf-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/nissan-leaf-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Nissan Leaf.</description>
+    </item>
+    <item>
+      <title>Toyota Rav4 Prime Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/toyota-rav4-prime-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/toyota-rav4-prime-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Toyota Rav4 Prime.</description>
+    </item>
+    <item>
+      <title>Cadillac Lyriq Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/cadillac-lyriq-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/cadillac-lyriq-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Cadillac Lyriq.</description>
+    </item>
+    <item>
       <title>Chevy Bolt Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
       <link>https://hanifsalman11.github.io/ev-charger-index/chevy-bolt-home-charger-wire-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ev-charger-index/chevy-bolt-home-charger-wire-size-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/ev-charger-index/cadillac-lyriq-luxury-awd-home-charger-wire-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ev-charger-index/cadillac-lyriq-luxury-awd-home-charger-wire-size-calculator.html</guid>
       <description>Calculate exact Level 2 charging time (3.5 hrs for 20%–80%), NEC wire gauge (3 AWG Copper THHN in Conduit (or 2 AWG Copper)), and circuit breaker size (100A) for the Cadillac Lyriq Luxury AWD.</description>
-    </item>
-    <item>
-      <title>Ford Mustang Mach-E Premium ER Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
-      <link>https://hanifsalman11.github.io/ev-charger-index/ford-mustang-mach-e-premium-er-home-charger-wire-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ev-charger-index/ford-mustang-mach-e-premium-er-home-charger-wire-size-calculator.html</guid>
-      <description>Calculate exact Level 2 charging time (5.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Ford Mustang Mach-E Premium ER.</description>
-    </item>
-    <item>
-      <title>Tesla Cybertruck All-Wheel Drive Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
-      <link>https://hanifsalman11.github.io/ev-charger-index/tesla-cybertruck-all-wheel-drive-home-charger-wire-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ev-charger-index/tesla-cybertruck-all-wheel-drive-home-charger-wire-size-calculator.html</guid>
-      <description>Calculate exact Level 2 charging time (7.0 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Tesla Cybertruck All-Wheel Drive.</description>
-    </item>
-    <item>
-      <title>Tesla Model 3 Highland Long Range Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
-      <link>https://hanifsalman11.github.io/ev-charger-index/tesla-model-3-highland-long-range-home-charger-wire-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ev-charger-index/tesla-model-3-highland-long-range-home-charger-wire-size-calculator.html</guid>
-      <description>Calculate exact Level 2 charging time (4.4 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Tesla Model 3 Highland Long Range.</description>
     </item>
   </channel>
 </rss>

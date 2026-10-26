@@ -358,5 +358,35 @@
     "max_kw": 11.5,
     "breaker_amps": 60,
     "date": "2026-10-26"
+  },
+  {
+    "ev_name": "Cadillac Lyriq",
+    "slug": "cadillac-lyriq-home-charger-wire-size-calculator",
+    "title": "Cadillac Lyriq Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Cadillac Lyriq.",
+    "battery_kwh": 82.0,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-26"
+  },
+  {
+    "ev_name": "Toyota Rav4 Prime",
+    "slug": "toyota-rav4-prime-home-charger-wire-size-calculator",
+    "title": "Toyota Rav4 Prime Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Toyota Rav4 Prime.",
+    "battery_kwh": 82.0,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-26"
+  },
+  {
+    "ev_name": "Nissan Leaf",
+    "slug": "nissan-leaf-home-charger-wire-size-calculator",
+    "title": "Nissan Leaf Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Nissan Leaf.",
+    "battery_kwh": 82.0,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-26"
   }
 ]

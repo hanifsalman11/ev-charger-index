@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tesla Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+  <meta name="description" content="Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Tesla.">
+  <link rel="canonical" href="https://hanifsalman11.github.io/ev-charger-index/tesla-home-charger-wire-size-calculator.html">
+  <meta property="og:title" content="Tesla Home Charger Calculator: Amps, Wire Size & Charge Time (2026)">
+  <meta property="og:description" content="Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Tesla.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://hanifsalman11.github.io/ev-charger-index/tesla-home-charger-wire-size-calculator.html">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "Tesla Home Charger & NEC Wire Gauge Calculator", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Web Browser", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long does it take to charge a Tesla at home on Level 2?", "acceptedAnswer": {"@type": "Answer", "text": "With a 82.0 kWh usable battery and 11.5 kW (48A) onboard AC charger, a daily 20% to 80% top-up (49.2 kWh) takes approximately 4.7 hours, while a 0% to 100% full charge takes about 7.8 hours."}}, {"@type": "Question", "name": "What size wire and breaker do I need for a Tesla home charger?", "acceptedAnswer": {"@type": "Answer", "text": "To achieve the maximum 48A (11.5 kW) charging speed, install a hardwired EVSE on a 60A 2-pole 240V breaker using 6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex). If using a NEMA 14-50 plug on a 50A breaker, set the charger to 40A continuous (9.6 kW)."}}, {"@type": "Question", "name": "How much does it cost to charge a Tesla at home?", "acceptedAnswer": {"@type": "Answer", "text": "At the US national average residential electricity rate of $0.16 per kWh, charging the Tesla from 20% to 80% (49.2 kWh plus ~8% charging loss) costs approximately $8.56, or $14.26 for a complete 0%\u2013100% charge."}}]}]}</script>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased min-h-screen flex flex-col">
+  <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-5xl mx-auto px-4 py-3.5 flex items-center justify-between">
+      <a href="index.html" class="text-lg font-black tracking-tight text-white flex items-center gap-2">
+        <span class="bg-teal-500 text-slate-950 px-2 py-0.5 rounded font-black">EVSE</span>CalcIndex
+      </a>
+      <a href="https://www.amazon.com/s?k=Level%2B2%2BEV%2BCharger%2B48%2BAmp%2B40%2BAmp%2BNEMA%2B14-50%2BHardwired%2BUL%2BListed&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="text-xs sm:text-sm bg-teal-500 hover:bg-teal-400 text-slate-950 font-extrabold px-3.5 py-2 rounded-lg transition">
+        Shop UL-Listed Level 2 EV Chargers on Amazon →
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 flex-1 w-full">
+    <div class="mb-8">
+      <div class="flex flex-wrap items-center gap-2.5 mb-3">
+        <span class="text-xs font-extrabold uppercase tracking-widest bg-teal-500 text-slate-950 px-3 py-1 rounded-full">82.0 kWh Battery</span>
+        <span class="text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full">Max AC: 11.5 kW (48A)</span>
+        <span class="text-xs font-semibold bg-slate-800 text-slate-300 px-3 py-1 rounded-full">Port: J1772 / NACS | NEC Breaker: 60A</span>
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">Tesla Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</h1>
+      <div class="mt-4 bg-slate-900 border-l-4 border-teal-500 p-4 rounded-r-xl text-sm text-slate-200 leading-relaxed">
+        <strong>NEC Article 625 Engineering Summary:</strong> The Tesla features a 82.0 kWh usable battery pack and a 11.5 kW (48A continuous) onboard AC charger. Per NEC Article 625 (80% continuous load rule), running at full 48A speed requires a dedicated 60-Amp 240V 2-pole circuit wired with 6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex), recharging from 20% to 80% in approximately 4.7 hours (+33.9 miles of range per hour).
+      </div>
+    </div>
+
+    <!-- INTERACTIVE EV CHARGING TIME, BREAKER & WIRE GAUGE CALCULATOR -->
+    <section class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 mb-12 shadow-2xl">
+      <h2 class="text-xl font-extrabold text-white mb-2">Interactive Tesla Charge Time & NEC Wire Calculator</h2>
+      <p class="text-xs text-slate-400 mb-6">Adjust your circuit breaker amperage, target battery charge percentage, and conduit wire distance to compute exact charging duration, NEC wire gauge, and cost per charge.</p>
+
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div class="space-y-5">
+          <div>
+            <label for="breakerSelect" class="block text-sm font-medium text-slate-300 mb-1.5">240V Circuit Breaker Size (NEC 80% Continuous Load)</label>
+            <select id="breakerSelect" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-teal-500">
+              <option value="20">20A Breaker → 16A Continuous (3.8 kW)</option>
+              <option value="30">30A Breaker → 24A Continuous (5.8 kW)</option>
+              <option value="40">40A Breaker → 32A Continuous (7.7 kW)</option>
+              <option value="50">50A Breaker → 40A Continuous (9.6 kW NEMA 14-50 Max)</option>
+              <option value="60" selected>60A Breaker → 48A Continuous (11.5 kW Hardwired)</option>
+              <option value="100">100A Breaker → 80A Continuous (19.2 kW Pro Hardwired)</option>
+            </select>
+          </div>
+
+          <div>
+            <div class="flex justify-between text-sm font-medium mb-1.5">
+              <label for="socSlider" class="text-slate-300">Battery Energy Added (% of 82.0 kWh Pack)</label>
+              <span class="text-teal-400 font-bold">+<span id="socVal">60</span>% (20% → 80%)</span>
+            </div>
+            <input id="socSlider" type="range" min="10" max="100" step="5" value="60" class="w-full accent-teal-500 cursor-pointer">
+          </div>
+
+          <div>
+            <div class="flex justify-between text-sm font-medium mb-1.5">
+              <label for="runSlider" class="text-slate-300">Panel-to-Charger Conduit Wire Run (Feet)</label>
+              <span class="text-teal-400 font-bold"><span id="runVal">40</span> ft</span>
+            </div>
+            <input id="runSlider" type="range" min="10" max="150" step="10" value="40" class="w-full accent-teal-500 cursor-pointer">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-slate-950 border border-teal-500/30 rounded-xl p-4">
+            <span class="text-xs uppercase text-teal-400 font-bold">Estimated Charge Time</span>
+            <div class="text-2xl sm:text-3xl font-black text-white mt-1"><span id="timeOut">0.0</span> <span class="text-sm font-normal text-slate-400">hrs</span></div>
+            <p id="speedNoteOut" class="text-xs text-slate-400 mt-1">At 11.5 kW (+36 mi/hr)</p>
+          </div>
+
+          <div class="bg-slate-950 border border-emerald-500/30 rounded-xl p-4">
+            <span class="text-xs uppercase text-emerald-400 font-bold">NEC Copper Wire Gauge</span>
+            <div id="awgOut" class="text-xl sm:text-2xl font-black text-emerald-400 mt-1">6 AWG Copper</div>
+            <p id="costOut" class="text-xs text-slate-400 mt-1">Est. Session Cost: $8.15</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6 bg-teal-950/40 border border-teal-500/30 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div id="necAdviceBanner" class="text-sm text-teal-100 font-medium"></div>
+        <a id="dynamicEvseBtn" href="https://www.amazon.com/s?k=Level%2B2%2BEV%2BCharger%2B48%2BAmp%2B40%2BAmp%2BNEMA%2B14-50%2BHardwired%2BUL%2BListed&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="shrink-0 bg-teal-500 hover:bg-teal-400 text-slate-950 font-extrabold px-4 py-2.5 rounded-lg text-xs uppercase tracking-wider transition">
+          Shop Matched EV Charger on Amazon →
+        </a>
+      </div>
+    </section>
+
+    <!-- 4-CARD HARDWARE BUNDLE -->
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-extrabold text-white">Complete Tesla Home Charging Hardware Kit</h2>
+        <span class="text-xs text-slate-400">UL-Listed & NEC Article 625 Compliant</span>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-teal-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-teal-500/10 text-teal-400 border border-teal-500/20 px-2.5 py-0.5 rounded">Matched Level 2 EVSE</span>
+              <span class="text-sm font-bold text-emerald-400">$399 - $599</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">48-Amp 11.5kW Hardwired / NEMA 14-50 Smart Level 2 EV Charger</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">⚡ Delivers up to 11.5 kW at 240V with dynamic amperage dip-switches and Wi-Fi off-peak scheduling.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=48+Amp+Level+2+EV+Charger+Hardwired+NEMA+14-50+UL+Listed&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-teal-500 hover:bg-teal-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-teal-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-teal-500/10 text-teal-400 border border-teal-500/20 px-2.5 py-0.5 rounded">Industrial Anti-Melt Outlet</span>
+              <span class="text-sm font-bold text-emerald-400">$54 - $89</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">Hubbell HBL9450A / Bryant 9450FR Heavy-Duty Industrial NEMA 14-50R Receptacle</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">⚡ Standard $12 hardware-store dryer outlets melt under multi-hour 40A EV loads. Always use an industrial torque-rated receptacle.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=Hubbell+9450A+Bryant+9450FR+Industrial+NEMA+14-50+Outlet+EV&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-teal-500 hover:bg-teal-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-teal-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-teal-500/10 text-teal-400 border border-teal-500/20 px-2.5 py-0.5 rounded">NEC 625 Copper Conductor</span>
+              <span class="text-sm font-bold text-emerald-400">$95 - $289</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex) 90°C Rated Building Wire (25ft – 100ft Cut)</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">⚡ Sized for a 60A 240V circuit with under 3% voltage drop over standard residential garage conduit runs.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=6+AWG+THHN+Copper+Wire+6%2F3+Romex+NM-B+EV+Charger&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-teal-500 hover:bg-teal-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-teal-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-teal-500/10 text-teal-400 border border-teal-500/20 px-2.5 py-0.5 rounded">NACS / J1772 Fast Adapter</span>
+              <span class="text-sm font-bold text-emerald-400">$79 - $159</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">80-Amp 250V Heavy-Duty NACS (Tesla) to J1772 / J1772 to NACS Locking Adapter</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">⚡ Ensures universal cross-compatibility between your Tesla (J1772 / NACS) and any Level 2 destination or home wall connector.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=80A+NACS+to+J1772+Tesla+EV+Charger+Adapter+UL+Listed&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-teal-500 hover:bg-teal-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div></div>
+    </section>
+
+    <!-- CIRCUIT BREAKER & WIRE MATRIX TABLE -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-white mb-4">Tesla Breaker Size, AWG Wire & Speed Matrix (20%–80% Charge)</h2>
+      <div class="overflow-x-auto bg-slate-900 border border-slate-800 rounded-xl">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-slate-800 bg-slate-950/60 text-slate-400 uppercase text-xs">
+              <th class="py-3.5 px-4">240V Breaker</th>
+              <th class="py-3.5 px-4">Continuous Output</th>
+              <th class="py-3.5 px-4 text-teal-400">Minimum Copper Wire</th>
+              <th class="py-3.5 px-4 text-emerald-400">20%–80% Charge Time</th>
+              <th class="py-3.5 px-4">Connection Type</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">20A Breaker</td>
+          <td class="py-3 px-4 text-slate-300">16A (3.8 kW)</td>
+          <td class="py-3 px-4 font-bold text-teal-400">12 AWG Copper</td>
+          <td class="py-3 px-4 font-bold text-emerald-400">14.1 hrs (+11.2 mi/hr)</td>
+          <td class="py-3 px-4 text-xs text-slate-400">NEMA 6-20 / Hardwired</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">30A Breaker</td>
+          <td class="py-3 px-4 text-slate-300">24A (5.8 kW)</td>
+          <td class="py-3 px-4 font-bold text-teal-400">10 AWG Copper</td>
+          <td class="py-3 px-4 font-bold text-emerald-400">9.2 hrs (+17.1 mi/hr)</td>
+          <td class="py-3 px-4 text-xs text-slate-400">NEMA 14-30 / Dryer Split</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">40A Breaker</td>
+          <td class="py-3 px-4 text-slate-300">32A (7.7 kW)</td>
+          <td class="py-3 px-4 font-bold text-teal-400">8 AWG Copper</td>
+          <td class="py-3 px-4 font-bold text-emerald-400">6.9 hrs (+22.7 mi/hr)</td>
+          <td class="py-3 px-4 text-xs text-slate-400">NEMA 14-50 / Hardwired</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">50A Breaker</td>
+          <td class="py-3 px-4 text-slate-300">40A (9.6 kW)</td>
+          <td class="py-3 px-4 font-bold text-teal-400">6 AWG Copper</td>
+          <td class="py-3 px-4 font-bold text-emerald-400">5.6 hrs (+28.3 mi/hr)</td>
+          <td class="py-3 px-4 text-xs text-slate-400">NEMA 14-50 Plug Max</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">60A Breaker</td>
+          <td class="py-3 px-4 text-slate-300">48A (11.5 kW)</td>
+          <td class="py-3 px-4 font-bold text-teal-400">6 AWG THHN / 4 AWG NM-B</td>
+          <td class="py-3 px-4 font-bold text-emerald-400">4.7 hrs (+33.9 mi/hr)</td>
+          <td class="py-3 px-4 text-xs text-slate-400">Hardwired Wall Connector</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">100A Breaker</td>
+          <td class="py-3 px-4 text-slate-300">80A (11.5 kW (Onboard Cap))</td>
+          <td class="py-3 px-4 font-bold text-teal-400">3 AWG Copper THHN</td>
+          <td class="py-3 px-4 font-bold text-emerald-400">4.7 hrs (+33.9 mi/hr)</td>
+          <td class="py-3 px-4 text-xs text-slate-400">Hardwired High-Output Pro</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- NEC INSTALLATION CHECKLIST -->
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-extrabold text-white">Master Electrician NEC 625 Installation Checklist</h2>
+        <span id="necBadge" class="text-xs font-bold bg-slate-800 text-teal-400 px-3 py-1 rounded-full">0 / 4 Completed</span>
+      </div>
+      <div class="space-y-3">
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-teal-500 rounded cursor-pointer nec-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>NEC Step 1:</strong> Size your circuit breaker to 125% of continuous charger output (NEC 625.41): a 48A continuous charge requires a 60A 2-pole 240V breaker.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-teal-500 rounded cursor-pointer nec-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>NEC Step 2:</strong> Hardwire any EVSE operating at 48 Amps or higher; NEC guidelines and most EVSE manufacturers limit plug-in NEMA 14-50 installations to 40 Amps continuous (50A breaker).</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-teal-500 rounded cursor-pointer nec-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>NEC Step 3:</strong> Torque all breaker, disconnect, and receptacle lugs to exact manufacturer inch-pound specifications (typically 75 in-lbs on Hubbell 9450A) using a calibrated torque screwdriver.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-teal-500 rounded cursor-pointer nec-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>NEC Step 4:</strong> When installing a NEMA 14-50 plug-in outlet in a garage or outdoors, NEC requires a GFCI-protected 2-pole circuit breaker in your main panel.</span>
+        </label></div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-white mb-5">Frequently Asked Questions (Tesla)</h2>
+      <div class="space-y-4"><div class='bg-slate-900 border border-slate-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>How long does it take to charge a Tesla at home on Level 2?</h3><p class='text-sm text-slate-300 leading-relaxed'>With a 82.0 kWh usable battery and 11.5 kW (48A) onboard AC charger, a daily 20% to 80% top-up (49.2 kWh) takes approximately 4.7 hours, while a 0% to 100% full charge takes about 7.8 hours.</p></div><div class='bg-slate-900 border border-slate-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>What size wire and breaker do I need for a Tesla home charger?</h3><p class='text-sm text-slate-300 leading-relaxed'>To achieve the maximum 48A (11.5 kW) charging speed, install a hardwired EVSE on a 60A 2-pole 240V breaker using 6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex). If using a NEMA 14-50 plug on a 50A breaker, set the charger to 40A continuous (9.6 kW).</p></div><div class='bg-slate-900 border border-slate-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>How much does it cost to charge a Tesla at home?</h3><p class='text-sm text-slate-300 leading-relaxed'>At the US national average residential electricity rate of $0.16 per kWh, charging the Tesla from 20% to 80% (49.2 kWh plus ~8% charging loss) costs approximately $8.56, or $14.26 for a complete 0%–100% charge.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500 px-4">
+    <p>© 2026 EVSECalcIndex. Independent EV Charging & NEC Electrical Sizing Database. As an Amazon Associate, we earn from qualifying purchases.</p>
+  </footer>
+
+  <script>
+    const battKwh = 82.0;
+    const vehicleMaxKw = 11.5;
+    const effMi = 3.2;
+    const amzDomain = "www.amazon.com";
+    const amzTag = "salmanrevie04-20";
+
+    const breakerSelect = document.getElementById('breakerSelect');
+    const socSlider = document.getElementById('socSlider');
+    const runSlider = document.getElementById('runSlider');
+    const socVal = document.getElementById('socVal');
+    const runVal = document.getElementById('runVal');
+    const timeOut = document.getElementById('timeOut');
+    const speedNoteOut = document.getElementById('speedNoteOut');
+    const awgOut = document.getElementById('awgOut');
+    const costOut = document.getElementById('costOut');
+    const necAdviceBanner = document.getElementById('necAdviceBanner');
+    const dynamicEvseBtn = document.getElementById('dynamicEvseBtn');
+
+    function recalculateEv() {
+      const breakerA = parseInt(breakerSelect.value, 10);
+      const socPct = parseInt(socSlider.value, 10);
+      const runFt = parseInt(runSlider.value, 10);
+
+      socVal.textContent = socPct;
+      runVal.textContent = runFt;
+
+      const contAmps = Math.round(breakerA * 0.80);
+      const circuitKw = (contAmps * 240.0) / 1000.0;
+      const actualKw = Math.min(vehicleMaxKw, circuitKw);
+      const deliveredKw = actualKw * 0.92;
+
+      const kwhNeeded = battKwh * (socPct / 100.0);
+      const hours = kwhNeeded / deliveredKw;
+      const milesPerHr = Math.round(deliveredKw * effMi);
+      const wallKwh = kwhNeeded / 0.92;
+      const sessionCost = wallKwh * 0.16;
+
+      timeOut.textContent = hours.toFixed(1);
+      speedNoteOut.textContent = `At ${actualKw.toFixed(1)} kW (+${milesPerHr} mi/hr)`;
+      costOut.textContent = `Est. Cost (@$0.16/kWh): $${sessionCost.toFixed(2)}`;
+
+      let wireLabel = "6 AWG Copper THHN";
+      if (breakerA <= 20) wireLabel = runFt > 100 ? "10 AWG Copper" : "12 AWG Copper";
+      else if (breakerA <= 30) wireLabel = runFt > 100 ? "8 AWG Copper" : "10 AWG Copper";
+      else if (breakerA <= 40) wireLabel = runFt > 100 ? "6 AWG Copper" : "8 AWG Copper";
+      else if (breakerA <= 50) wireLabel = runFt > 100 ? "4 AWG Copper" : "6 AWG Copper";
+      else if (breakerA <= 60) wireLabel = runFt > 100 ? "4 AWG Copper THHN" : "6 AWG Copper THHN";
+      else wireLabel = runFt > 90 ? "2 AWG Copper THHN" : "3 AWG Copper THHN";
+
+      awgOut.textContent = wireLabel;
+
+      const searchQuery = contAmps >= 48
+        ? "48+Amp+Level+2+Smart+EV+Charger+Hardwired+UL+Listed"
+        : `${contAmps}+Amp+NEMA+14-50+Level+2+Smart+EV+Charger`;
+
+      necAdviceBanner.innerHTML = `⚡ <strong>NEC 625 Spec:</strong> A <strong>${breakerA}A breaker</strong> delivers <strong>${contAmps}A continuous (${circuitKw.toFixed(1)} kW)</strong> and requires <strong>${wireLabel}</strong> for a ${runFt} ft conduit run.`;
+      dynamicEvseBtn.href = `https://${amzDomain}/s?k=${searchQuery}&tag=${amzTag}`;
+    }
+
+    breakerSelect.addEventListener('change', recalculateEv);
+    socSlider.addEventListener('input', recalculateEv);
+    runSlider.addEventListener('input', recalculateEv);
+    recalculateEv();
+
+    const checks = document.querySelectorAll('.nec-check');
+    const badge = document.getElementById('necBadge');
+    checks.forEach(ch => {
+      ch.addEventListener('change', () => {
+        const done = Array.from(checks).filter(c => c.checked).length;
+        badge.textContent = `${done} / ${checks.length} Completed`;
+      });
+    });
+  </script>
+</body>
+</html>

@@ -7,6 +7,12 @@
     <atom:link href="https://hanifsalman11.github.io/ev-charger-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>How To Calculate Mobile Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/how-to-calculate-mobile-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/how-to-calculate-mobile-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the How To Calculate Mobile.</description>
+    </item>
+    <item>
       <title>How Long To Charge Battery Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
       <link>https://hanifsalman11.github.io/ev-charger-index/how-long-to-charge-battery-home-charger-wire-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ev-charger-index/how-long-to-charge-battery-home-charger-wire-size-calculator.html</guid>
@@ -179,12 +185,6 @@
       <link>https://hanifsalman11.github.io/ev-charger-index/rivian-r1t-dual-motor-large-pack-home-charger-wire-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ev-charger-index/rivian-r1t-dual-motor-large-pack-home-charger-wire-size-calculator.html</guid>
       <description>Calculate exact Level 2 charging time (6.2 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Rivian R1T Dual-Motor Large Pack.</description>
-    </item>
-    <item>
-      <title>Porsche Macan Electric 4 Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
-      <link>https://hanifsalman11.github.io/ev-charger-index/porsche-macan-electric-4-home-charger-wire-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ev-charger-index/porsche-macan-electric-4-home-charger-wire-size-calculator.html</guid>
-      <description>Calculate exact Level 2 charging time (5.6 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Porsche Macan Electric 4.</description>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/ev-charger-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>How Long To Charge Battery Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/how-long-to-charge-battery-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/how-long-to-charge-battery-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the How Long To Charge Battery.</description>
+    </item>
+    <item>
+      <title>Calculate Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/calculate-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/calculate-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Calculate.</description>
+    </item>
+    <item>
+      <title>Battery Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
+      <link>https://hanifsalman11.github.io/ev-charger-index/battery-home-charger-wire-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/ev-charger-index/battery-home-charger-wire-size-calculator.html</guid>
+      <description>Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Battery.</description>
+    </item>
+    <item>
       <title>Nissan Leaf Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
       <link>https://hanifsalman11.github.io/ev-charger-index/nissan-leaf-home-charger-wire-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ev-charger-index/nissan-leaf-home-charger-wire-size-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/ev-charger-index/porsche-macan-electric-4-home-charger-wire-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/ev-charger-index/porsche-macan-electric-4-home-charger-wire-size-calculator.html</guid>
       <description>Calculate exact Level 2 charging time (5.6 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Porsche Macan Electric 4.</description>
-    </item>
-    <item>
-      <title>BMW i4 eDrive40 Gran Coupe Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
-      <link>https://hanifsalman11.github.io/ev-charger-index/bmw-i4-edrive40-gran-coupe-home-charger-wire-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ev-charger-index/bmw-i4-edrive40-gran-coupe-home-charger-wire-size-calculator.html</guid>
-      <description>Calculate exact Level 2 charging time (4.8 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the BMW i4 eDrive40 Gran Coupe.</description>
-    </item>
-    <item>
-      <title>Honda Prologue Touring AWD Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
-      <link>https://hanifsalman11.github.io/ev-charger-index/honda-prologue-touring-awd-home-charger-wire-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ev-charger-index/honda-prologue-touring-awd-home-charger-wire-size-calculator.html</guid>
-      <description>Calculate exact Level 2 charging time (4.8 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Honda Prologue Touring AWD.</description>
-    </item>
-    <item>
-      <title>Cadillac Lyriq Luxury AWD Home Charger Calculator: Amps, Wire Size & Charge Time (2026)</title>
-      <link>https://hanifsalman11.github.io/ev-charger-index/cadillac-lyriq-luxury-awd-home-charger-wire-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/ev-charger-index/cadillac-lyriq-luxury-awd-home-charger-wire-size-calculator.html</guid>
-      <description>Calculate exact Level 2 charging time (3.5 hrs for 20%–80%), NEC wire gauge (3 AWG Copper THHN in Conduit (or 2 AWG Copper)), and circuit breaker size (100A) for the Cadillac Lyriq Luxury AWD.</description>
     </item>
   </channel>
 </rss>

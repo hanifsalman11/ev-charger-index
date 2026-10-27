@@ -388,5 +388,35 @@
     "max_kw": 11.5,
     "breaker_amps": 60,
     "date": "2026-10-26"
+  },
+  {
+    "ev_name": "Battery",
+    "slug": "battery-home-charger-wire-size-calculator",
+    "title": "Battery Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Battery.",
+    "battery_kwh": 82.0,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-27"
+  },
+  {
+    "ev_name": "Calculate",
+    "slug": "calculate-home-charger-wire-size-calculator",
+    "title": "Calculate Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Calculate.",
+    "battery_kwh": 82.0,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-27"
+  },
+  {
+    "ev_name": "How Long To Charge Battery",
+    "slug": "how-long-to-charge-battery-home-charger-wire-size-calculator",
+    "title": "How Long To Charge Battery Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the How Long To Charge Battery.",
+    "battery_kwh": 82.0,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-10-27"
   }
 ]

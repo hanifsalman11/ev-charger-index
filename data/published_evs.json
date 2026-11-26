@@ -448,5 +448,15 @@
     "max_kw": 11.5,
     "breaker_amps": 60,
     "date": "2026-11-25"
+  },
+  {
+    "ev_name": "Kia Ev9",
+    "slug": "kia-ev9-home-charger-wire-size-calculator",
+    "title": "Kia Ev9 Home Charger Calculator: Amps, Wire Size & Charge Time (2026)",
+    "description": "Calculate exact Level 2 charging time (4.7 hrs for 20%–80%), NEC wire gauge (6 AWG Copper THHN in Conduit (or 4 AWG NM-B Romex)), and circuit breaker size (60A) for the Kia Ev9.",
+    "battery_kwh": 82.0,
+    "max_kw": 11.5,
+    "breaker_amps": 60,
+    "date": "2026-11-26"
   }
 ]
